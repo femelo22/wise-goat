@@ -1,0 +1,56 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(129, 127, 127); */
+    justify-content: center;
+    padding: 5%;
+    float: left;
+    margin-left: 30%;
+}
+
+.wise{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #987957;
+}
+
+.goat{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #72005f;
+}
+
+.button{
+    margin-top: 15px;
+}
+
+.button--advice{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    padding: 12px 15px;
+    text-decoration: none;
+    background-color: #72005f;
+    opacity: 1;
+    border-radius: 5px;
+    transition: all ease 0.2s;
+}
+
+.button--advice:hover{
+    opacity: 0.9;
+    background-color: #721160;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    float: left;
+}
+
+.img--bode{
+    width: 300px;
+    height: 300px;
+}
